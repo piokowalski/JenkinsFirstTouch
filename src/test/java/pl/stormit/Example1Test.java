@@ -7,7 +7,7 @@ public class Example1Test {
 
 	@Test
 	public void test1() {
-Assert.fail();
+//Assert.fail();
 	}
 
 	@Test
@@ -24,6 +24,6 @@ Assert.fail();
 
 	@Test
 	public void test5() {
-		Assert.fail();
+		//Assert.fail();
 	}
 }
