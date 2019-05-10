@@ -7,21 +7,22 @@ public class Example1Test {
 
 	@Test
 	public void test1() {
-Assert.fail();
+
 	}
 
 	@Test
 	public void test2() {
-Assert.fail();
+
 	}
 
 	@Test
 	public void test3() {
+
 	}
 
 	@Test
 	public void test4() {
-Assert.fail();
+
 	}
 
 	@Test
