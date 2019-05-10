@@ -7,11 +7,12 @@ public class Example1Test {
 
 	@Test
 	public void test1() {
-//Assert.fail();
+Assert.fail();
 	}
 
 	@Test
 	public void test2() {
+Assert.fail();
 	}
 
 	@Test
@@ -20,10 +21,11 @@ public class Example1Test {
 
 	@Test
 	public void test4() {
+Assert.fail();
 	}
 
 	@Test
 	public void test5() {
-		//Assert.fail();
+		Assert.fail();
 	}
 }
