@@ -7,12 +7,10 @@
 	<groupId>pl.stormit</groupId>
 	<artifactId>jenkinsexample</artifactId>
 	<version>1.0-SNAPSHOT</version>
-
 	<properties>
 		<maven.compiler.source>8</maven.compiler.source>
 		<maven.compiler.target>8</maven.compiler.target>
 	</properties>
-
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -24,6 +22,12 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+<profiles>
+	<profile>
+		<id>glassfish-embedded</id>
+		<activation>
+			<activeByDefault>true</activeByDefault>
+		</activation>
 
 	<dependencies>
 		<dependency>
@@ -56,7 +60,8 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+	</profile>
+</profiles>
 	<build>
 		<plugins>
 			<plugin>
@@ -65,5 +70,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
