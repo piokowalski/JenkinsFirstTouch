@@ -25,7 +25,7 @@ public class TimeServiceTest {
     TimeService timeService;
 
     @Test
-    public void shouldReturnProperTime() {
+    public void shouldReturnCorrectTime() {
         //given
 
         //when

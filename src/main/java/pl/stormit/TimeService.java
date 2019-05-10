@@ -1,14 +1,14 @@
 package pl.stormit;
 
+import javax.ejb.Stateless;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+@Stateless
 public class TimeService {
 
-    DateFormat dateFormat = new SimpleDateFormat();
-
-    Date date = new Date(2019,5,10);
-
-    String formattedDate = dateFormat.format(date);
+    public String time() {
+        return Long.toString(System.currentTimeMillis());
+    }
 }
